@@ -5,13 +5,11 @@
 
 <h3 align="center">Dockerizable LAMP</h3>
 
-## 
 
 ## Descripción
 
 Este repositorio contiene la estructura basica para crear un servidor LAMP local con Docker Compose.
 
-## 
 
 ## Estructura del repositorio
 
@@ -65,7 +63,6 @@ FROM php:7.4.3-apache
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 ```
 
-## 
 
 ## Descarga, instalación e inicialización
 
@@ -81,7 +78,6 @@ Descargar el repositorio con el método a elección haciendo click en el botón 
 <a target:"_blank" href="https://docs.docker.com/compose/install/"><b>Docker Compose</b></a>
 </div>
 
-### 
 
 ### Iniciar servidor LAMP
 
@@ -123,7 +119,6 @@ Una vez instalado Docker y Docker Compose.
 
 6. Si todo funciona correctamente al dirigirse a localhost desde el navegador deberia aparecer el mensaje "Connected successfull" caso contrario "Connection failed" y el error detallado.
 
-### 
 
 ### Finalizar Servidor LAMP
 
@@ -133,7 +128,6 @@ Para finalizar la ejecucion del servidor corre el siguiente comando.
 docker-compose down
 ```
 
-### 
 
 ### Eliminar Volumen
 
